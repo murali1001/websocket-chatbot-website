@@ -18,11 +18,11 @@ A chatbot implement using websocket for communicating between server-client and 
 
 - Code for embbeding chatbox to your website may like this:
 
-~~~
+~~~html
 <link rel="stylesheet" type="text/css" href="chatbot.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="sails.io.js"></script>
 <script src="chatbot.js"></script>
 ~~~
 
-- Edit files in `/server/vbrain` (AI folder using (Rivescript)[https://www.rivescript.com/]) to modify how your chatbot replies messages.
+- Edit files in `/server/vbrain` (AI folder using [Rivescript](https://www.rivescript.com/)) to modify how your chatbot replies messages.

@@ -1,0 +1,55 @@
+// JavaScript Object Macro Examples
+
+! version = 2.0
+
+> object setvar javascript
+	// Example of how to get the current user's ID and set
+	// variables for them.
+	var uid = rs.currentUser();
+	var name  = args.shift();
+	var value = args.join(" ");
+	rs.setUservar(uid, name, value);
+< object
+
+> object cong javascript
+	// Demonstrats that JS objects can return numbers.
+	var a = args[0];
+	var b = args[1];
+	return parseInt(a) + parseInt(b);
+< object
+
+> object tru javascript
+	// Demonstrats that JS objects can return numbers.
+	var a = args[0];
+	var b = args[1];
+	return parseInt(a) - parseInt(b);
+< object
+
+> object nhan javascript
+	// Demonstrats that JS objects can return numbers.
+	var a = args[0];
+	var b = args[1];
+	return parseInt(a) * parseInt(b);
+< object
+
+> object chia javascript
+	// Demonstrats that JS objects can return numbers.
+	var a = args[0];
+	var b = args[1];
+	return parseFloat(a) / parseFloat(b);
+< object
+
++ # cong # bang [*]
+- <star1> + <star2> = <call>cong <star1> <star2></call>
+
++ # tru # bang [*]
+- <star1> - <star2> = <call>tru <star1> <star2></call>
+
++ # nhan # bang [*]
+- <star1> * <star2> = <call>nhan <star1> <star2></call>
+
++ # chia # bang [*]
+- <star1> / <star2> = <call>chia <star1> <star2></call>
+
++ javascript set * to *
+- Set user variable <star1> to <star2>.<call>setvar <star1> <star2></call>

@@ -1,0 +1,4 @@
+module.exports.token = {
+    webhook_token: '2832hhr298audss3rh2i3orsdjfdfweoifjwe',
+    facebook_token: 'EAACGiyfD974BAKfQIZCZA6XZAfd2GZCjujUB4U4JmFMIdEUsk1LSBavb0vbLZCM62zAuw94EZCkFxvaZBrsQnxi7yAjkW7X7SRxItN8NJYdY58SvZCZAGhlBrN97URa3pAuCkqR2MwEq3nB2VmgZAOoE1EZBbrh6xL6An88w0QxzZB35LgZDZD'
+};

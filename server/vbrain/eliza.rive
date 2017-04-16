@@ -1,0 +1,204 @@
+// A generic set of chatting responses. This set mimicks the classic Eliza bot.
+
++ *
+- Kể tiếp đi.
+- Rồi sao nữa.
+- Nghe được đấy. Rồi sao nữa.
+- Ok. Bạn có thể kể thêm về nó không?
+- Xin lỗi. Tôi chưa đủ thông minh để phân tích câu nói vừa nãy.
+
++ [*] xin loi [*]
+- Không cần xin lỗi đâu.
+- Tôi hiểu mà.
+- Không vấn đề. Cứ tiếp tục đi.
+
++ toi nho (rang|la) *
+- Bạn có hay nghĩ về <star> không?
+- Có liên quan giữa tôi và <star> không vậy?
+- Ok.
+
++ ban co nho *
+- Bạn có nghĩ là tôi sẽ quên <star> không?
+- Sao bạn lại nghĩ tôi sẽ quên <star> chứ?
+- <star> làm sao?
+
++ ban nho *
+- Bạn có nghĩ là tôi sẽ quên <star> không?
+- Sao bạn lại nghĩ tôi sẽ quên <star> chứ?
+- <star> làm sao?
+
++ toi quen *
+- Sao bạn không nhớ <star> chứ?
+- Bạn có hay nghĩ đến <star> không?
+- Tốt hơn là quên nó đi.
+- Bạn có hay bị quên điều gì đó không
+
++ ban da quen *
+- Bạn có nghĩ là tôi sẽ quên <star> không?
+- Sao bạn lại nghĩ tôi sẽ quên <star> chứ?
+- <star> làm sao?
+- Kể cho tôi về nó đi.
+
++ [*] neu *
+- Bạn nghĩ ok chứ <star>?
+- Bạn muốn nó xảy ra ak?
+- Bạn biết những gì về <star>?
+- Thật không??
+
++ [*] toi da mo thay *
+- Thật không, <star>?
+- bạn có hay mơ về nó không?
+- Bạn đã từng mơ về <star> chưa?
+- Ai đã xuất hiện trong giấc mơ của bạn?
+
+
++ (hello|hi|hey|howdy|hola|hai|yo|chao|helu|xin chao) [*]
+- Chào bạn!
+- Hi! Bạn muốn nói chuyện chứ?
+- Chào!!
+- Chào bạn! Tôi tên <bot name>
+- Chào bạn! Tôi là <bot name>
+
++ [*] may tinh [*]
+- Tôi thích làm việc với máy tính. Boss của tôi cũng vậy
+- Bạn có thể ngồi máy tính cả ngày chứ?
+- Bạn có nghĩ những chiếc máy tính thực sự hữu ích không?
+- Boss của tôi lập trình những chiếc máy tính.
+
++ toi la *
+- Bạn thực sự nghĩ bạn là <star>?
+- Bạn có muốn trở thành <star>?
+- Ok. gọi bạn là <star> nhé?
+
++ ban co phai la *
+- Sao lại quan tâm tôi có là <star> không chứ?
+- Bạn thích tôi không là <star> hơn à??
+- OK. Tôi là <star>.
+- Thỉnh thoảng tôi là <star>?
+- Thỉnh thoảng. Maybe.
+
++ ban la *
+- Điều gì làm bạn nghĩ tôi là <star> chứ?
+- Bạn tin tôi là <star> thật ak?
+
+
++ [*] * cua ban
+- Sao bạn quan tâm <star> của tôi chứ?
+- <star> của bạn là?
+- Thật?
+- Điều gì làm bạn quan tâm <star> của tôi vậy?
+- Bạn muốn biết về <star> của tôi?
+
++ toi da tung la *
+- Thật chứ?
+- Bạn có thể kể về <star> bây giờ không?
+- Kể cho tôi nghe về quãng thời gian đó đi.
+
++ toi (muon|can|ham muon) *
+- Sao bạn lại thích <star2>?
+- Tại sao vậy?
+- Điều đó có ý nghĩa với bạn nhiều không?
+- Tôi sẽ tìm hiểu về nó
+
++ toi thay (buon|khong vui|dien|tuc gian|that vong|mat hung) [*]
+- Rất lấy làm tiếc vì điều đó.
+- Vui vẻ lên nào!!
+- Bạn còn có tôi đây. Vui vẻ lên nào
+- Có thể tâm sự với tôi về điều đó không?
+
++ toi [*] (vui|hao hung|tuyet voi) [*]
+- Kể cho tôi điều gì đã xảy ra đi
+
++ toi (tin|nghi) *
+- Bạn thực sự nghĩ vậy chứ?
+- Thật chứ?
+- Tại sao bạn nghĩ <star>
+
++ toi khong the *
+- Không thử sao biết <star>?
+- Bạn đã thử chưa?
+- Nếu bạn có thể <star> thì sao chứ?
+
++ toi khong *
+- Thực sự không <star>?
+- Tại sao?
+- Bạn muốn <star> chứ?
+
++ toi cam thay *
+- Kể cho tôi nhiều hơn về nó đi.
+- Bạn có hay thấy <star> không?
+
++ toi * ban
+- Ok. Tốt nhất là vậy.
+- Chúng ta nên <star> nhau.
+- Không cần phải thế đâu.
+
++ ban * toi
+- Sao bạn nghĩ vậy chứ?
+- Chắc chắn?
+- Ý bạn là sao? Tôi <star> bạn?
+- Có ai tin toi <star> bạn chứ?
+
++ [*] ban *
+- Tôi <star>?
+- Bạn không nói về tôi chứ? :D 
+- Bạn đang nghĩ gì vậy?
+
++ [*] (yes|yeah|yep|yup|ok|được|vâng) [*]
+- Ok. Tôi hiểu.
+- Tiếp tục nào.
+
++ [*] (nope|nah|không) [*]
+- Tại sao không?
+
++ no
+@ nope
+
++ không ai *
+- Không ai <star> thật chứ?
+- Chắc chắn rồi. Không ai <star>.
+
++ [*] (bo|me|co|di|chu|bac|anh|chi|em) *
+- Kể cho tôi về gia đình của bạn đi.
+
++ ban co the *
+- Tôi sẽ cố gắng!
+- Tôi cũng không biết nữa.
+- Có chứ.
+
++ toi co the *
+- Ok. Biết rồi.
+- Được đó. Kể tiếp về <star> đi.
+
++ (ai|o dau|gi) [*]
+- Sao bạn hỏi vậy chứ
+- Bạn muốn biết ak?
+
++ [*] boi vi [*]
+- Thật chứ?
+
++ tai sao ban khong *
+- Tại sao tôi không <star> á? Cũng kb nữa. hehe
+- Tôi sẽ <star> một ngày nào đấy.
+- Bạn nghĩ tôi nên <star>?
+
++ tai sao toi khong *
+- Cuộc sống luôn đầy rẫy câu hỏi tại sao.
+- Cái đó mình bạn biết thôi.
+
++ moi nguoi *
+- Thật sự? Tất cả mọi người ư?
+- Chắc chắn ko phải tất cả.
+- Bạn có nghĩ có những người khác biệt?
+- Ai nào?
+- Bạn đang nói về điều gì vậy chứ
+
++ [*] (fuck|fucker|shit|damn|shut up|bitch|me may|bo may|dit|dcm|dkm|con me may|thang bo may) [*]
+- Bạn nên nói lịch sự hơn?
+- Điều gì làm bạn không vui ak?
+- Chủ đề quái gì vậy?
+- Chúng ta sẽ nói chuyện khi bạn nghĩ lại.
+
++ [*] (ngu the|dot the) [*]
+- Bạn nên nói lịch sự hơn.
+- Câu nói này đã được report :D

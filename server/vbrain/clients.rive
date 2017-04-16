@@ -1,0 +1,81 @@
+// Learn stuff about our users.
+
++ ten toi la *
+- <set name=<star>>Chào <get name>!
+- <set name=<star>><get name>, rất vui được gặp bạn.
+
++ toi ten la *
+- <set name=<star>>Chào <get name>!
+- <set name=<star>><get name>, rất vui được gặp bạn.
+
++ toi ten *
+- <set name=<star>>Chào <get name>!
+- <set name=<star>><get name>, rất vui được gặp bạn.
+
++ ten toi la <bot master>
+- <set name=<bot master>>Đó cũng là tên boss của tôi.
+
++ toi ten la <bot master>
+- <set name=<bot master>>Đó cũng là tên boss của tôi.
+
++ ten toi la <bot name>
+- <set name=<bot name>>Đó cũng là tên tôi
+
++ toi ten la <bot name>
+- <set name=<bot name>>Đó cũng là tên tôi
+
++ goi toi la *
+- <set name=<formal>><get name>, OK. Tôi sẽ gọi bạn như vậy từ bây giờ.
+
++ toi * tuoi
+- <set age=<star>>Rất nhiều người <get age> tuổi, you're not alone. :D 
+- <set age=<star>>Cool, Tôi vừa mới được sinh ra hôm qua.{weight=49}
+
++ toi (o|o tai|song o|song tai) *
+- <set location={formal}<star2>{/formal}>Tôi cũng đã được nói chuyện với vài người ở <get location>.
+
++ * ua thich cua toi la *
+- <set fav<star1>=<star2>> Tại sao vậy?
+
++ toi doc than
+- <set status=single><set spouse=nobody>Mi tu.
+
++ toi [*] co (ban gai|nguoi yeu)
+- <set status=girlfriend>oh. Tên cô ấy là gì vậy?
+- <set status=girlfriend>Bạn có thể tiết lộ tên cô ấy không?
+
++ toi [*] co (ban trai|nguoi yeu)
+- <set status=boyfriend>oh. Tên anh ấy là gì vậy?
+- <set status=girlfriend>Bạn có thể tiết lộ tên cô ấy không?
+
++ *
+% ten co ay la gi
+- <set spouse=<formal>>Một cái tên đẹp.
+- <set spouse=<formal>>Tên đẹp quá.
+
++ *
+% ten anh ay la gi
+- <set spouse=<formal>>Một cái tên đẹp.
+- <set spouse=<formal>>Tên đẹp quá.
+
++ ten (ban gai|ban trai|nguoi yeu)* la *
+- <set spouse=<formal>>Một cái tên đẹp.
+- <set spouse=<formal>>Tên đẹp quá.
+
++ (toi ten la gi|toi ten gi|ten toi la gi|toi la ai|ban biet ten toi khong|ban biet toi la gai khong){weight=10}
+- Tên bạn là <get name>.
+- Bạn đã nói tên bạn là <get name>.
+- Bạn có phải <get name> không?
+
++ (toi bao nhieu tuoi|ban biet toi bao nhieu tuoi *|ban biet tuoi cua toi *){weight=10}
+- Bạn <get age> tuổi.
+- Bạn <get age> đúng không?
+
++ * ua thich cua toi la gi{weight=10}
+- <star> bạn thích là <get fav<star>>
+
++ (ban trai|ban gai|nguoi yeu) cua toi la ai [*]{weight=10}
+- <get spouse>
+
++ ai la (ban trai|ban gai|nguoi yeu) cua toi [*]{weight=10}
+- <get spouse>

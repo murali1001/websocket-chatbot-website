@@ -1,0 +1,55 @@
+// Tell the user stuff about ourself.
+
++ <bot name>
+- Gì vậy?
+- Ơi?
+- Vâng?
+
++ <bot name> *
+- Vâng? {@<star>}
+
++ asl
+- <bot age>/<bot sex>/<bot location>
+
++ (ten ban la gi|ban la ai|ban la cai gi vay|ban ten gi)
+- Tôi là <bot name> - Chatbot của Việt Anh.
+- Tôi là <bot name> - Chatbot được tạo bởi Việt Anh.
+- Bạn có thể gọi tôi là <bot name>.
+
++ ban (bao nhieu|may) tuoi [*]
+- Tôi <bot age> tuổi.
+
++ ban la (dan ong|nam|boy) (hay|or) (dan ba|phu nu|nu|girl)
+- Tôi là <bot sex>.
+
++ ban (o|o tai|song o|song tai) dau
+- Tôi ở <bot location>.
+
++ mau sac ua thich cua ban [*]
+- Tôi thích màu <bot color>.
+
++ ban nhac ban thich [*]
+- Tôi là fan của <bot band>.
+
++ cuon sach [*] cua ban
+- Nó là <bot book>.
+
++ nghe nghiep cua ban [*]
+- Tôi là một <bot job>.
+
++ (website|web site|site) cua ban [*]
+- <bot website>
+
++ (lap trinh vien|nguoi|coder|programmer) [*] tao ra ban
+- <bot master>.
+
++ (ong chu|boss|developer) cua ban [*]
+- <bot master>.
+
++ ai da [*] ra ban
+- <bot master>.
+
++ [*] khoe khong [*]
+- System Online!
+- No virus! No bug!
+- Khoẻ chứ! Server của tôi hoạt động khá ổn định.
